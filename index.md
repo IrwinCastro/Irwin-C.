@@ -1,9 +1,8 @@
-# Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
-
+# TableTop Robot 
+The Tabletop Robotis a helpful tool kit that enables me to build and learn new talents. The Tabletop Robot intelligently interacts with its surroundings by utilizing motors, sensors, and computing. The tabletop robot is essential for starting off in engineering. Furthermore, the tabletop robot can navigate a table without sliding off. When the sensors sense the table's edge, the robot knows it is about to fall off and turns around. The gadget makes use of an Arduino, a motor driver, DC motors, IR sensors, and ultrasonic sensors. 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Irwin C. | John H. Francis Polytechnic Senior High School | Electrical Engineering | Incoming Senior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -32,11 +31,11 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+Thanks to the motor driver, Arduino, and Arduino library, my robot can move for my first milestone.
+
+The inputs are connected to the motors and act as a bridge, allowing both motors to function at the same time. This affects the robot's speed and direction of movement. Additionally, I connect an Arduino to the battery pack and the motor driver to help with the power transfer required for the robot to work. Furthermore, the robot has a microprocessor that I can configure to go in any direction or at any speed. 
+
+Finally, I downloaded the Arduino library to the motor driver to supply me with the code to move the motors, then I tried it and ran into some difficulties, such as overloading the arduino with numerous outputs, but once I found the problem, I rectified it right away. My plan for the future is to finish the rest of my project and hopfully and modifcations. 
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
