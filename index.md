@@ -1,7 +1,7 @@
 # TableTop Robot 
 The Tabletop Robotis a helpful tool kit that enables me to build and learn new talents. The Tabletop Robot intelligently interacts with its surroundings by utilizing motors, sensors, and computing. The tabletop robot is essential for starting off in engineering. Furthermore, the tabletop robot can navigate a table without sliding off. When the sensors sense the table's edge, the robot knows it is about to fall off and turns around. The gadget makes use of an Arduino, a motor driver, DC motors, IR sensors, and ultrasonic sensors. 
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:--:|:--:|:--:|:--:|
+
+
 | Irwin C. | John H. Francis Polytechnic Senior High School | Electrical Engineering | Incoming Senior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
@@ -33,7 +33,7 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 Thanks to the motor driver, Arduino, and Arduino library, my robot can move for my first milestone.
 
-The inputs are connected to the motors and act as a bridge, allowing both motors to function at the same time. This affects the robot's speed and direction of movement. Additionally, I connect an Arduino to the battery pack and the motor driver to help with the power transfer required for the robot to work. Furthermore, the robot has a microprocessor that I can configure to go in any direction or at any speed. 
+The inputs are connected to the motors and act as a bridge, allowing both motors to function at the same time. This affects the robot's speed and direction of movement. Additionally, I connected an Arduino to the battery pack and the motor driver to help with the power transfer required for the robot to work. Furthermore, the robot has a microprocessor that I can configure to go in any direction or at any speed. 
 
 Finally, I downloaded the Arduino library to the motor driver to supply me with the code to move the motors, then I tried it and ran into some difficulties, such as overloading the arduino with numerous outputs, but once I found the problem, I rectified it right away. My plan for the future is to finish the rest of my project and hopfully and modifcations. 
 
