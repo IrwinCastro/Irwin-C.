@@ -9,22 +9,22 @@ The Tabletop Robotis is a useful tool kit that has aided me in the development o
 ![Headstone Image](logo.svg)
   
 # Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+//For your final milestone, explain the outcome of your project. Key details to include are:
+//- What you've accomplished since your previous milestone
+//- What your biggest challenges and triumphs were at BSE
+//- A summary of key topics you learned about
+//- What you hope to learn in the future after everything you've learned at BSE
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+//**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy //and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+//<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Second Milestone
 In my second milestone, I built a basic piece of code that would aid me in the next step toward complete table top robot functioning. As a result, I used the sensor for line tracking, which allowed me to determine the sensor value and avoid the table's edge. Essentially, this sensor carries the pin number A0, which allows the sensor value to be appropriately analyzed to show whether the robot is on or off the table. When the sensor value detects that it is no longer on the table, my robot will stop, back up, turn, and continue onward. However, this is only a first step toward my eventual goal, therefore there will be several trials and errors along this process, such as coding. Coding is my weakest link, and I have a lot of them including having the correct sensor value to do my project correctly.
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+//**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy //and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+//<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
 Thanks to the motor driver, Arduino, and Arduino library, my robot can move for my first milestone.
@@ -33,9 +33,9 @@ The inputs are connected to the motors and act as a bridge, allowing both motors
 
 Finally, I downloaded the Arduino library to the motor driver to supply me with the code to move the motors, then I tried it and ran into some difficulties, such as overloading the arduino with numerous outputs, but once I found the problem, I rectified it right away. My plan for the future is to finish the rest of my project and hopfully and modifcations. 
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+//**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy //and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+//<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
