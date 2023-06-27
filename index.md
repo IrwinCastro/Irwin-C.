@@ -34,7 +34,7 @@ The inputs are connected to the motors and act as a bridge, allowing both motors
 
 Finally, I downloaded the Arduino library to the motor driver to supply me with the code to move the motors, then I tried it and ran into some difficulties, such as overloading the arduino with numerous outputs, but once I found the problem, I rectified it right away. My plan for the future is to finish the rest of my project and hopfully and modifcations. 
 
-![Headstone Image](Image.pdf)
+<img src="Image.pdf" alt="drawing" height="200" width="200"/>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4TMorQ3VmTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
