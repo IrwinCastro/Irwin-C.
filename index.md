@@ -64,12 +64,27 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino | To read inputs and change them into outputs | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6"> Link </a> |
+|:--:|:--:|:--:|:--:|
+|Line tracking Module  | Used for line following and edge detection | $11.98 | <a href="https://www.amazon.com/OSOYOO-5-Line-Tracking-Sensor-Female/dp/B091BRVBXD/ref=sr_1_2?crid=1L6IXN7JQAVR8&keywords=line+tracking+sensor+module&qid=1687830416&s=electronics&sprefix=line+tracking+sensor+module%2Celectronics%2C256&sr=1-2"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Ultrasonic Sensor | Can measure the distance to a wide range of objects regardless of shape, color or surface texture| $6.99 | <a href="https://www.amazon.com/CUQI-Ultrasonic-Measuring-Transmitter-Compatible/dp/B092D2DS1Y/ref=sr_1_3?crid=ANG1F83QMC03&keywords=Ultrasonic+sensor&qid=1687831203&s=electronics&sprefix=ultrasonic+senso%2Celectronics%2C193&sr=1-3"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Camera | recording images | $13.99 | <a href="https://www.amazon.com/Aokin-ESP32-CAM-Development-Bluetooth-Arduino/dp/B0C1V3R6SM/ref=sr_1_2?crid=1VMF6AUE9XNNN&keywords=camera+for+robot+TY-OV2640-12.7&qid=1687832917&s=electronics&sprefix=camera+for+robot+ty-ov2640-12.7%2Celectronics%2C235&sr=1-2"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| DC Motors | Converts direct current electrical energy into mechanical energy | $5.28 | <a href="https://www.amazon.com/Yahboom-Motor-Leads-Shaft-248RPM/dp/B0BTHGG83F/ref=sr_1_13?keywords=DC+motors&qid=1687833562&sr=8-13"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Servos |control the position of objects, rotate objects, move legs, arms or hands of robots, move sensors | $10.99 | <a href="https://www.amazon.com/Maxmoral-Upgraded-Digital-Vehicle-Helicopter/dp/B07NV476P7/ref=d_pd_di_sccai_cn_sccl_2_6/136-6372419-2431801?pd_rd_w=rsun0&content-id=amzn1.sym.e13de93e-5518-4644-8e6b-4ee5f2e0b062&pf_rd_p=e13de93e-5518-4644-8e6b-4ee5f2e0b062&pf_rd_r=1JK02F0V52D7DJ56JSA0&pd_rd_wg=XuDbu&pd_rd_r=8767de95-190c-438c-b54f-a22aac2229ab&pd_rd_i=B07NV476P7&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
