@@ -1,18 +1,20 @@
-# TableTop Robot 
+# Table Top Robot 
 The Tabletop Robotis is a practical toolkit that has helped me improve a variety of skills. Additionally, it uses motors, sensors, and computers to interact intelligently with its environment. The robot is essential for beginning engineering and moving on to the next level. Furthermore, the tabletop robot detects the table's edge before realizing it will fall off and turning around to avoid it. This is the outcome of the following sources of information: The system includes an Arduino, a motor driver, DC motors, IR sensors, and ultrasonic sensors.
 
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
+|:--:|:--:|:--:|:--:|
 | Irwin C. | John H. Francis Polytechnic Senior High School | Electrical Engineering | Incoming Senior
 
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
 <!--![Headstone Image](logo.svg)-->
   
-# Final Milestone
+<!--# Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- What you hope to learn in the future after everything you've learned at BSE-->
 
 <!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy
 and paste the code to replace what's below.**-->
@@ -85,10 +87,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 
 
-# Other Resources/Examples
+<!--# Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+To watch the BSE tutorial on how to create a portfolio, click here.-->
