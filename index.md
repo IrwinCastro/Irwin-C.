@@ -75,7 +75,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Servos |control the position of objects, rotate objects, move legs, arms or hands of robots, move sensors | $10.99 | <a href="https://www.amazon.com/Maxmoral-Upgraded-Digital-Vehicle-Helicopter/dp/B07NV476P7/ref=d_pd_di_sccai_cn_sccl_2_6/136-6372419-2431801?pd_rd_w=rsun0&content-id=amzn1.sym.e13de93e-5518-4644-8e6b-4ee5f2e0b062&pf_rd_p=e13de93e-5518-4644-8e6b-4ee5f2e0b062&pf_rd_r=1JK02F0V52D7DJ56JSA0&pd_rd_wg=XuDbu&pd_rd_r=8767de95-190c-438c-b54f-a22aac2229ab&pd_rd_i=B07NV476P7&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Lithuim Battery | To power robot | $16.99 | <a href="https://www.amazon.com/KBT-3-7V-1000mAh-Li-Polymer-Battery/dp/B0BJPFR756/ref=sr_1_2_sspa?crid=34OKC9CQ0OQIO&keywords=lithium+battery+5v&qid=1687843031&sprefix=lithium+battery+v%2Caps%2C387&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
