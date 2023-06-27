@@ -1,6 +1,5 @@
 # TableTop Robot 
-The Tabletop Robotis is a useful tool kit that has aided me in the development of numerous talents. Furthermore, the Tabletop Robot interacts with its surroundings intelligently by employing motors, sensors, and computers. The tabletop robot is vital for getting started in engineering and progressing to the next level. In addition, the tabletop robot is very self explanatory detecting the edge of the table, then realizes it is going to tumble off and turns around avoiding the edge. This is a result of the following materials: Arduino, a motor driver, DC motors, IR sensors, and ultrasonic sensors are used in the device.  
-
+The Tabletop Robotis is a practical toolkit that has helped me improve a variety of skills. Additionally, it uses motors, sensors, and computers to interact intelligently with its environment. The robot is essential for beginning engineering and moving on to the next level. Furthermore, the tabletop robot detects the table's edge before realizing it will fall off and turning around to avoid it. This is the outcome of the following sources of information: The system includes an Arduino, a motor driver, DC motors, IR sensors, and ultrasonic sensors.
 
 | Irwin C. | John H. Francis Polytechnic Senior High School | Electrical Engineering | Incoming Senior
 
