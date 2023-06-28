@@ -61,7 +61,7 @@ const int STBY = 3;
 const int AIN2 = 1;
 
 // Analog input pin
-const int analogInputPin = A1;
+const int analogInputPin = A0;
 
 // ITR200001 chip pin
 const int itrSensorPin = 4; 
@@ -137,11 +137,13 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Lithuim Battery | To power robot | $16.99 | <a href="https://www.amazon.com/KBT-3-7V-1000mAh-Li-Polymer-Battery/dp/B0BJPFR756/ref=sr_1_2_sspa?crid=34OKC9CQ0OQIO&keywords=lithium+battery+5v&qid=1687843031&sprefix=lithium+battery+v%2Caps%2C387&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| tires | To move robot | $14.60 | <a href="https://www.amazon.com/HiLetgo-Smart-Robot-Plastic-6527MM/dp/B01HTC5C86/ref=sr_1_9?crid=37CCYMXAADOH4&keywords=tires+5+in+for+robot&qid=1687925975&sprefix=tires+5+in+for+robot%2Caps%2C222&sr=8-9"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Board/Plate | keep the car organized | $28.99 | <a href="https://www.amazon.com/MakerFocus-Chassis-MEGA2560-MEGA1280-Microcontroller/dp/B01LYZDP9U/ref=sr_1_42?crid=9WPCHLHWZ41T&keywords=robot+board&qid=1687926315&sprefix=robot+boar%2Caps%2C223&sr=8-42"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Ir Sensors | Infrared sensors can detect infrared light from large distances over a wide area | $7.99 | <a href="https://www.amazon.com/WWZMDiB-Obstacle-Avoidance-Sensor-Module/dp/B0B74QJV8H/ref=sr_1_3?crid=1JFIXE6SCG624&keywords=Ir+sensors&qid=1687926870&sprefix=ir+sensor%2Caps%2C328&sr=8-3"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Nuts and Bolts | Hold together items | $24.99 | <a href="https://www.amazon.com/M6-M5-M4-M3-washers%E3%83%BBWrenches%EF%BC%89Socket/dp/B0B6H9H8S5/ref=sxin_17_pa_sp_search_thematic_sspa?content-id=amzn1.sym.749943ff-94bd-4679-8f03-3b5488f65fae%3Aamzn1.sym.749943ff-94bd-4679-8f03-3b5488f65fae&crid=1G1F9R5Z1FR9I&cv_ct_cx=nuts+and+bolts+for+robot+kit&keywords=nuts+and+bolts+for+robot+kit&pd_rd_i=B0B6H9H8S5&pd_rd_r=9cff980e-6a1a-4b42-afc0-5fc45dcc0be6&pd_rd_w=E97g1&pd_rd_wg=HyUAY&pf_rd_p=749943ff-94bd-4679-8f03-3b5488f65fae&pf_rd_r=5VW8ZDGGRMSEESK9P5QK&qid=1687926932&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=nuts+and+bolts+for+robot+ki%2Caps%2C228&sr=1-3-2b34d040-5c83-4b7f-ba01-15975dfb8828-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
 
