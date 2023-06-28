@@ -7,7 +7,7 @@ The Table top Robot is a practical toolkit that has helped me improve a variety 
 
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
-<!--![Headstone Image](logo.svg)-->
+<img src="Untitled-6.jpg" alt="drawing" height="400" width="400"/>
   
 <!--# Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
