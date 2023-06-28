@@ -41,7 +41,7 @@ Finally, I downloaded the Arduino library to the motor driver to supply me with 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4TMorQ3VmTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
-<img src="AmazingAllis.png" alt="drawing" height="600" width="600"/>
+<img src="AmazingAllis.png" alt="drawing" height="600" width="800"/>
 
 
 # Code
