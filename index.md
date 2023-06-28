@@ -22,12 +22,12 @@ and paste the code to replace what's below.**-->
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 
 # Second Milestone
-In my second milestone, I built a basic piece of code that would aid me in the next step toward complete table top robot functioning. As a result, I used the sensor for line tracking, which allowed me to determine the sensor value and avoid the table's edge. Essentially, this sensor carries the pin number A0, which allows the sensor value to be appropriately analyzed to show whether the robot is on or off the table. When the sensor value detects that it is no longer on the table, my robot will stop, back up, turn, and continue onward. However, this is only a first step toward my eventual goal, therefore there will be several trials and errors along this process, such as coding. Coding is my weakest link, and I have a lot of them including having the correct sensor value to do my project correctly.
+In my second milestone, I built a piece of code from scratch that would aid me in the next step toward complete table top robot functioning. As a result, I used the sensor for line tracking, which allowed me to determine the sensor value and avoid the table's edge. Essentially, this sensor carries the pin number A0, which allows the sensor value to be appropriately analyzed to show whether the robot is on or off the table. When the sensor value detects that it is no longer on the table, my robot will stop, back up, turn, and continue onward. However, this is only a first step toward my eventual goal, therefore there will be several trials and errors along this process, such as coding. In the beginning coding was deffently difficult for me in the beginning, I had minimual knowlege, but BSE has helped me and I have a lot of them including having the correct sensor value to do my project correctly.
 
 <!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy
 and paste the code to replace what's below.**-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8pPy4GfPHhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
 Thanks to the motor driver, Arduino, and Arduino library, my robot can move for my first milestone.
@@ -47,15 +47,72 @@ Finally, I downloaded the Arduino library to the motor driver to supply me with 
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+#include <SparkFun_TB6612.h>
+#include <IRremote.h>
+
+// Motor pin definitions
+const int PWMB = 6;
+const int PWMA = 5;
+const int AIN1 = 7;
+const int BIN1 = 8;
+const int BIN2 = 2;
+const int STBY = 3;
+const int AIN2 = 1;
+
+// Analog input pin
+const int analogInputPin = A1;
+
+// ITR200001 chip pin
+const int itrSensorPin = 4; 
+
+// Maximum distance to detect an obstacle (in centimeters)
+// const int maxDistance = 30; 
+const int offsetA = 1;
+const int offsetB = 1;
+
+Motor motor1 = Motor(AIN1, AIN2, PWMA, offsetA, STBY);
+Motor motor2 = Motor(BIN1, BIN2, PWMB, offsetB, STBY);
+
+const int LEDPin = 13; 
+
 void setup() {
-  // put your setup code here, to run once:
+  // Set motor control pins as outputs
+  pinMode(PWMB, OUTPUT);
+  pinMode(PWMA, OUTPUT);
+  pinMode(AIN1, OUTPUT);
+  pinMode(BIN1, OUTPUT);
+  pinMode(BIN2, OUTPUT);
+  pinMode(STBY, OUTPUT);
+  pinMode(AIN2, OUTPUT);
+  
+  // Initialize serial communication
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  pinMode(LEDPin, OUTPUT); 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
+  int sensorValue = analogRead(analogInputPin);
+  const int threshold = 850; 
+  Serial.println(sensorValue);
+  
+  if (sensorValue > threshold) {
+    // Off the table
+    digitalWrite(LEDPin, LOW); 
+    brake(motor1, motor2);
+    back(motor1, motor2, -150);
+    delay(1000);
+    left(motor1, motor2, 100);
+    delay(1000);
 
+  }
+  
+  if (sensorValue < threshold) {
+    // On the table 
+    digitalWrite(LEDPin, HIGH); 
+    forward(motor1, motor2, 150);
+  
+  }
 }
 ```
 
